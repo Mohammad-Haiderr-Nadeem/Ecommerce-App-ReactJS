@@ -1,0 +1,92 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.featuredProducts {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 75%;
+    display: flex;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.productCard {
+    /* background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.productCard h3 {
+    text-align: center;
+}
+
+.searchTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.searchClass{
+    background-color: rgb(250, 248, 246);
+    color: black;
+    border: none;
+    padding: 15px;
+}
+
+.asideContainer {
+    top: 60px; 
+    right: 0;
+    width: 300px; 
+    height: calc(100% - 60px); 
+    background-color: #fff; 
+    padding: 2rem; 
+    display: flex;
+    flex-direction: row;
+}
+
+.priceTitle{
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.categoriesTitle{
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mySpan{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myAllCategories{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.categoryContainer{
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    padding: 60px;
+}

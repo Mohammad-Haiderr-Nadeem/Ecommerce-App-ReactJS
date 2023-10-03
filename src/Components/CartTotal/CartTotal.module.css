@@ -1,0 +1,29 @@
+.container{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.myTrow{
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.myChecoutButton{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: 15%;
+    border: none;
+    margin-bottom: 3%;
+    font-size: 10px;
+    width: 15%;
+    font-weight: bold;
+}

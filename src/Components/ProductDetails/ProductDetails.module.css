@@ -1,0 +1,98 @@
+.outerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+
+.innerImageContainer{
+    background-color: whitesmoke;
+    padding: 50px;
+    width: 600px;
+    height: 600px;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.myPrice{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.dummyText{
+    color: gray;
+    font-size: 15px;
+}
+
+.myButton{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 3%;
+    width: 170px;
+}
+
+.myButton:hover {
+    background-color: blue;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 3%;
+    width: 170px;
+}
+
+.lowerContainer{
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.slider{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-left: 3%;
+}
+
+.smallImagesContainer{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.smallImages{
+    margin-bottom: 15%;
+}
+
+.headingUnderline{
+    background-color: blue;
+    display: absolute;
+    color: blue;
+    height: 5px;
+    font-size: 1px;
+    border-radius: 10px;
+}
+
+.arrowButtonUp{
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+    border: none;
+}
+
+.arrowButtonDown{
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+    border: none;
+}

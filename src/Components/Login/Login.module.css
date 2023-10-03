@@ -1,0 +1,78 @@
+.container{
+    width: 350px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 6%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+    background-color: white;
+}
+
+.myTitle{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.myEmail{
+    width: 180%;
+    margin-bottom: 5%;
+}
+
+.myPassword{
+    width: 180%;
+    margin-bottom: 4%;
+}
+
+.myButton{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.spanContainer{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.mySpan{
+    color: grey;
+}
+
+.myRegister{
+    color: blue;
+    font-weight: bold;
+}
+
+.showPasswordIcon {
+    position: absolute;
+    top: 40%;
+    right: 2px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #777; 
+}
+
+.inputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+  
+.inputIcon {
+    position: absolute;
+    left: 10px; 
+    color: #777; 
+    top: 20%;
+}
